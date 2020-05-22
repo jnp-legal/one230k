@@ -1,7 +1,14 @@
-<<<<<<< HEAD
 # One230k
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
+# Developer Instructions
+## Install Node.js
+go to https://nodejs.org/
+
+## Install Angular
+npm install -g @angular/cli
+
+## Install Firebase
+npm install -g firebase-tools
 
 ## Development server
 
@@ -26,6 +33,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# one230k
->>>>>>> 3f7936a14f4b33ffbba4a32577dc9e22cf2d349b
