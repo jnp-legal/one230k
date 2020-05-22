@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { Repository } from 'src/app/repository.model';
+import { Repository } from './repository.model';
 
 const collection = 'repositories';
 const collectionPath = collection + '/';

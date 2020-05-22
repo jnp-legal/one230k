@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { RepositoryService } from '../repository.service';
-import { Repository } from '../repository.model';
+import { RepositoryService } from './repository.service';
+import { Repository } from './repository.model';
 
 @Component({
   selector: 'app-repo-list',
-  templateUrl: './repo-list.component.html',
-  styleUrls: ['./repo-list.component.css']
+  templateUrl: './repository.component.html',
+  styleUrls: ['./repository.component.css']
 })
-export class RepoListComponent implements OnInit {
+export class RepositoryComponent implements OnInit {
 
   repos: Repository[];
 

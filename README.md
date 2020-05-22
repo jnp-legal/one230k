@@ -1,16 +1,20 @@
 # One230k
 
 # Developer Instructions
+
 ## Install Node.js
+
 go to https://nodejs.org/
 
-## Install Angular
-npm install -g @angular/cli
+## Install Angular SDK locally
 
-## Install Firebase
-npm install -g firebase-tools
+npm install @angular/cli
 
-## Development server
+## Install Firebase SDK locally
+
+npm install firebase-tools
+
+## Run local development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
