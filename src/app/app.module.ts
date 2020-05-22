@@ -1,18 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AngularFireModule } from '@angular/fire';
-import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AppComponent } from './app.component';
-import { environment } from '../environments/environment'
+import { environment } from '../environments/environment';
+import { RepoListComponent } from './repo-list/repo-list.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RepoListComponent
   ],
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFireDatabaseModule
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

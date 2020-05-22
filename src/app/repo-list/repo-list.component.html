@@ -1,0 +1,14 @@
+<table>
+    <thead>
+      <th>ID</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let repo of repos">
+  
+        <td>{{repo.id}}</td>
+        <td>
+            <button (click)="delete(repo.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
