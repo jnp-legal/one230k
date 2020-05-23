@@ -14,6 +14,26 @@ npm install @angular/cli
 
 npm install firebase-tools
 
+# Create your environment
+Google API and Firebase keys
+To avoid checking in api keys, you'll need your own environment settings files. One for production and another for test.
+```
+./src/environments/environment.prod.ts
+./src/environments/environment.ts
+  export const environment = {
+    production: false,
+    firebaseConfig : {
+      apiKey: "YOUR API KEY",
+      authDomain: "YOUR DOMAIN",
+      databaseURL: "YOUR DATABASE",
+      projectId: "YOUR PROJECT ID",
+      storageBucket: "YOUR BUCKET",
+      messagingSenderId: "YOUR SENDER ID",
+      appId: "YOUR APP ID"
+    }
+  };
+```
+
 ## Run local development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
