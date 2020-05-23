@@ -8,7 +8,7 @@ For an installer, go to https://nodejs.org/
 
 ## Install SDKs locally
 
-npm install @angular/cli @angular/fire firebase firebase-tools
+npm install @angular/cli @angular/fire firebase firebase-tools bootstrap jquery
 
 ## Create your environment
 Google API and Firebase keys
