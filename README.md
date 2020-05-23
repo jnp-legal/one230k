@@ -2,21 +2,17 @@
 
 # Developer Instructions
 
-## Install Node.js
+## Install Node.js and NPM
 
-go to https://nodejs.org/
+For an installer, go to https://nodejs.org/
 
-## Install Angular SDK locally
+## Install SDKs locally
 
-npm install @angular/cli
+npm install @angular/cli @angular/fire firebase firebase-tools
 
-## Install Firebase SDK locally
-
-npm install firebase-tools
-
-# Create your environment
+## Create your environment
 Google API and Firebase keys
-To avoid checking in api keys, you'll need your own environment settings files. One for production and another for test.
+Everyone should get their own api keys in environment settings files. One for production and another for test. Point to these environment files from /src/app/app.module.ts.
 ```
 ./src/environments/environment.prod.ts
 ./src/environments/environment.ts
