@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
-import { IdeaCarouselComponent } from './carousel/carousel.component';
+import { CommonModule } from '@angular/common';
+import { IdeaListComponent } from './idea-list/idea-list.component';
 
 @NgModule({
-    declarations: [
-      IdeaCarouselComponent,
-    ],
-    exports: [
-      IdeaCarouselComponent
-    ]
-  })
-  export class IdeaModule { }
+  imports: [
+    CommonModule
+  ],
+  declarations: [
+    IdeaListComponent,
+  ],
+  exports: [
+    IdeaListComponent
+  ]
+})
+export class IdeaModule { }

@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
-import { IdeaModule } from '../idea/idea.module';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { IdeaModule } from '../idea/idea.module';
+import { IdeaListComponent } from '../idea/idea-list/idea-list.component';
+
 
 @NgModule({
     declarations: [
@@ -8,9 +10,6 @@ import { WelcomeComponent } from './welcome/welcome.component';
     ],
     imports: [
       IdeaModule
-    ],
-    exports: [
-      WelcomeComponent
     ]
   })
-  export class CommonModule { }
+  export class CompositModule { }
