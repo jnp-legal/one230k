@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RepositoryService } from './repository.service';
-import { Repository } from '../repository';
+import { Repository } from './repository';
 
 @Component({
   selector: 'app-repo-list',
